@@ -62,8 +62,8 @@ It performs *Create, Read, Update, and Delete (CRUD)* operations for handling bo
 ## Installation & Setup for the project
 
 ```python
-git clone <your repo>
-cd project-name
+git clone Book-Store-API-FastAPI-CRUD-Project
+cd project
 
 pip install -r requirements.txt
 
@@ -105,11 +105,11 @@ pip install -r requirements.txt
 **POST JSON** 
 ```json
 {
-    'title':'Pride and Prejudice',
-    'author':'Jane Austen',
-    'pages':279,
-    'publisher':'T. Egerton, Whitehall',
-    'published_date':'1813-01-28'
+    "title":"Pride and Prejudice",
+    "author":"Jane Austen",
+    "pages":279,
+    "publisher":"T. Egerton, Whitehall",
+    "published_date":"1813-01-28"
 }
 ```
 ---
